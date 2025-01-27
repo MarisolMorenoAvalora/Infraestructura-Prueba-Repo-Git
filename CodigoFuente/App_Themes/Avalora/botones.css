@@ -1,0 +1,70 @@
+﻿/* LIBRERIA DE BOTONES */
+
+A, INPUT, BUTTON {
+    outline: 0 none !important;
+}
+
+/* 	Clases a añadir a cualquier Etiqueta HTML
+
+	Tipos de boton:
+	_____________________________________________________________________________________
+
+	.boton      Boton simple			> Boton en modo caracter dos colores corporativos
+	.botonIco   Boton con icono			> Botones oscuros
+    
+    NOTA:       Icono a insertar como imágen de fondo Tamaños para FAMFAMFAM Base64.css
+	____________________________________________________________________________________
+*/
+
+
+.boton, .botonIco {
+    display: inline;
+    margin: 4px 0 6px 5px;
+	padding: 0 10px;
+    line-height: 1.9em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bababa;
+    background-position: 3px center;
+    background-repeat: no-repeat;
+    background-color: #356;
+    font-size: 0.7em;
+    color: #FFF;
+    vertical-align: middle;
+    cursor: pointer;
+    outline: 0 none;
+    font-size: 12px;
+    text-align: left;
+    background-color: #F0F0F0;
+    color: #023167;
+    border: 1px solid #BBBBBB /*d3d3d3*/;
+    outline: 0 none;
+    cursor: pointer;
+    overflow: visible;
+}
+
+.boton:hover, .botonIco:hover 
+{
+    background-color: #6699cc;
+    color: #FFF;
+}
+
+.botonIco
+{
+    padding-left: 25px;
+}
+
+/* Colores corporativos */
+
+.boton, .botonIco
+{
+    /* background-color: #f8f8f8;*/   /* Fondo botones mouse out */
+    /* border-color: #bababa;  Borde botones mouse out */
+}
+
+
+.boton:hover, .botonIco:hover
+{
+    /*background-color: #f8f8f8	 ;  #f8f8f8Fondo botones mouse out */
+    border-color: #6699cc;  /* Borde botones mouse out */
+}

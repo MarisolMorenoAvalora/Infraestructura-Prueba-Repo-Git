@@ -1,0 +1,260 @@
+﻿/* WEB FONTS IMPORT API */
+
+
+
+
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans);*/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(fonts/fonts-gstatic.woff) format('woff');
+}
+
+
+BODY.body_master {
+
+    /*background-color: red;*/
+}
+*
+{
+    font-family: 'Open Sans', sans-serif, arial, helvetica;
+}
+
+.cabecera H3
+{
+    color:#555;
+
+}
+
+.menu_usuarios
+{
+    top: 77px;
+    background: none;
+}
+
+.menu_usuarios LI A
+{
+    color:#FFF;
+}
+
+    .menu_usuarios LI A:hover {
+        color: #ccddee;
+    }
+
+
+/* HEADER .cabecera , ICON USER, PREFERENCES AND LOG OUT  */
+
+/*USER ICON*/
+.cabecera H3 {
+    background-image: url(images/ico_user_cabecera-blue.jpg);
+    background-position: center right;
+    right: 6px;
+    padding: 3px 22px 3px 0;
+    width: auto;
+    text-align: right;
+    font-size: 15px;
+}
+
+/* Preferences icon */
+A.but_config {
+    background-image: url(images/bg-but-config.png);
+    color: #FFF;
+}
+
+/* LOGOUT icon */
+A.but_salir {
+    background-image: url(images/bg-buts-salir.png);
+    color: #FFF;
+}
+
+
+
+/* contenedores.css interior */
+
+.cabecera_envoltorio {
+    overflow: visible;
+}
+
+.cabecera_menu_envoltorio {
+    margin-top: 20px;
+    padding: 5px;
+    background: none;
+    background-color: #009cc9;
+}
+
+.bloque_central_envoltorio {
+    background-color: #FCFCFC;
+}
+
+.bloque_central{
+    border: none;
+    background: none;
+    margin: 10px auto;
+}
+
+.pie_pagina_envoltorio {
+    background: none;
+    background-color: #009cc9;
+}
+
+
+/* Cabeceras grupo elementos de formulario */
+
+
+DIV.toolbar
+{
+    border: none;
+    margin: 30px 0 10px;
+    padding-top: 11px;
+    height: 20px;
+    background: #FFF url(images/separador_titulares.jpg) right top no-repeat;
+    border-bottom: 1px solid #E5E5E5;
+    overflow: visible;
+}
+
+DIV.toolbar ul li A
+{
+    color: #555;
+    font-size: 0.9em;
+}
+
+DIV.popup
+{
+    padding:10px;
+}
+
+DIV.popup ul li A
+{
+    color: #fff;
+}
+
+.toolbar li SPAN.titulo-toolbar {
+    left: 0;
+    top: -26px;
+    font-family: 'Open Sans';
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #009cc9;
+}
+
+.H3cabecera_seccion {
+    margin-top: 15px;
+    padding: 5px 5px 5px 0;
+    border: none;
+    background: transparent url('images/bgH3seccion.png') center right no-repeat;
+    color: #000;
+}
+
+.H3cabecera_seccion SPAN {
+    background-color: #FCFCFC;
+    font-weight: 400;
+    font-size: 1.1em;
+    color: #555;
+    padding-right: 15px;
+    /*padding-left: 23px;*/
+}
+
+
+/* jQuery UI Custom Avalora */
+
+TABLE.ui-datepicker-calendar A.ui-state-default
+{
+    background: none;
+    background-color: #01a1dd;
+}
+
+input:-webkit-autofill {
+    color: #fff !important;
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+
+
+/* Dialogos */
+
+.mensaje_info {
+    background: transparent url(images/info.png) 0.8em 0.3em no-repeat;
+
+}
+
+/* HEADER MENU */
+
+.cabecera_menu TABLE A {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+
+
+}
+
+
+/* DATAGRID */
+
+.data_grid TABLE {
+    background: #FFF;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+
+.data_grid TABLE TH {
+    background-color: #009cc9;
+    border: 1px solid #009cc9;
+    padding: 8px 0 4px 10px;
+    text-align: left;
+}
+
+.data_grid TH A
+{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.data_grid TD
+{
+    padding: 8px 5px 8px 6px;
+}
+
+.data_grid_paginador
+{
+    border-top: 1px solid #ddd;
+}
+
+TR:hover.data_grid_paginador, TR.data_grid_paginador
+{
+    background: none;
+}
+
+
+TR.data_grid_paginador TABLE
+{
+    background: none;
+}
+
+TR:hover.data_grid_paginador, TR.data_grid_paginador
+{
+    background-color: #FCFCFC;
+}
+
+.data_grid_paginador A {
+    color: #009cc9;
+}
+
+.data_grid_paginador TABLE TD {
+    padding: 0;
+}
+
+
+.data_grid INPUT {
+    margin: 0;
+    padding: 5px 1px 5px 10px;
+}
+
+.boton, .botonIco
+{
+    background-position: 10px center;
+}
+
+
+

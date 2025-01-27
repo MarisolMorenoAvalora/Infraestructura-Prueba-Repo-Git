@@ -1,0 +1,113 @@
+﻿/* CSS Document */
+
+
+/* 3. Class genericas */
+
+
+/* FULL WIDTH */
+
+.clear
+{
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+
+
+
+/* POSITION */
+
+.postion_relative {
+	position: relative;
+}
+
+.postion_absolute
+{
+    position: absolute;
+}
+
+.postion_fixed
+{
+    position: fixed;
+}
+
+.postion_inherit
+{
+    position: inherit;
+}
+.postion_initial
+{
+    position: initial;
+}
+
+/* DISPLAY */
+
+.display_block
+{
+    display: block;
+}
+
+.display_none
+{
+    display: none;
+}
+
+.display_inline
+{
+    display: inline;
+}
+
+.display_inline-block
+{
+    display: inline-block;
+}
+
+/* CLEAR */
+
+.clear_both
+{
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+.clear_left
+{
+	clear: left;
+}
+.clear_right
+{
+	clear: right;
+}
+
+.float_left
+{
+    float: left;
+}
+
+.float_right
+{
+    float: right;
+}
+
+.float_none
+{
+    float: none;
+}
+
+.float_inherit
+{
+    float: inherit;
+}
+
+.float_initial
+{
+    float: initial;
+}
+
+
+.overflow_hidden
+{
+    overflow: hidden;
+}
+
+

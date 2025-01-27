@@ -1,0 +1,48 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+/* Layout | CSS Genericas ANCHOS PARA COLUMNAS Y OTROS OBJETOS */
+
+.ancho-completo,
+.ancho-un-medio,
+.ancho-un-tercio,
+.ancho-un-cuarto,
+.ancho-un-quinto,
+.ancho-un-sexto,
+.ancho-dos-tercios,
+.ancho-tres-cuartos,
+.ancho-dos-quintos,
+.ancho-tres-quintos,
+.ancho-cuatro-quintos,
+.ancho-cuatro-sextos,
+.ancho-cinco-sextos  
+{
+    display: block;
+    float: left;
+	padding: 0;
+    /*overflow: visible;
+    position: relative;*/
+}
+
+.ancho-completo { width:100%; }
+.ancho-un-medio { width:50%; }
+.ancho-un-tercio{ width:33.3333%; }
+.ancho-un-cuarto { width:25%; }
+.ancho-un-quinto { width:20%; }
+.ancho-un-sexto { width:16.6666%; }
+.ancho-dos-tercios { width:66.6666%; }
+.ancho-tres-cuartos { width:75%; }
+.ancho-dos-quintos { width:40%; }
+.ancho-tres-quintos { width:60%; }
+.ancho-cuatro-quintos { width:80%; }
+.ancho-dos-sextos { width:33.3333%; }
+.ancho-cuatro-sextos { width:66.6666%; }
+.ancho-cinco-sextos { width:83.3333%; }
+
+
+
+
+
+
+

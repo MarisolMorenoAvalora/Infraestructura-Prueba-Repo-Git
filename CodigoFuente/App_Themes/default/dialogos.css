@@ -1,0 +1,126 @@
+﻿/* CSS Document */
+
+/* CUADROS DE DIALOGO Alertas, informacion, confirmacion, error */
+
+.cerrar_dialogo {
+	position: absolute;
+	right: 0.5em;
+	top: 0.5em;
+	width: 1em;
+	height: 1em;
+	background: transparent url(../img/dialogos/close.png) 0 0 no-repeat;
+	text-indent: -300em;
+	cursor: pointer;	
+}
+
+.mensaje_alert, .mensaje_info, .mensaje_ok, .mensaje_error {
+	position: relative;	
+    display: block;
+    width: auto;
+    margin: 0.5em 0;
+	padding: 0.8em 0.8em 0.8em 4em;	
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+}
+
+.mensaje_alert H4, .mensaje_info H4, .mensaje_ok H4, .mensaje_error H4 {
+	padding: 0.1em  0 0.1em ;
+	font-size: 0.9em;	
+}
+.mensaje_alert P, .mensaje_info P, .mensaje_ok P, .mensaje_error P {
+	padding: 0.1em  0 0.1em ;
+	font-size: 0.8em;
+	color: #555;
+}
+*.mensaje_alert {
+	background: transparent url(../img/dialogos/warning.png)  0.8em 0.3em no-repeat;
+    
+}
+.mensaje_ok {
+	background: transparent url(../img/dialogos/success.png)  0.8em 0.3em no-repeat;
+}
+.mensaje_info {
+	background: transparent url(../img/dialogos/info.png)  0.8em 0.3em no-repeat;
+}
+.mensaje_error {
+	background: transparent url(../img/dialogos/error.png)  0.8em 0.3em no-repeat;
+}
+
+.mensaje_alert H3, .mensaje_alert H4 
+{
+    color: #f19b07;
+    font-size: 15px;
+    
+}
+.mensaje_info H3, .mensaje_info H4
+{
+    color: #2D79B5;
+    font-size: 15px;
+    
+}
+.mensaje_ok H3, .mensaje_ok H4
+{
+    color: #669933;
+    font-size: 15px;
+    
+}
+.mensaje_error H3, .mensaje_error H4
+{
+    color: #cf4800;
+    font-size: 15px;
+    
+}
+.mensaje_alert P, .mensaje_info P, .mensaje_ok P, .mensaje_error P
+{
+    margin: 1px 0 2px 0;
+    font-size: 12px;
+    font-weight: normal;
+    color: #333;
+}
+
+.mensaje_alert H4 {
+	color: #F90;
+}
+.mensaje_info H4 {
+	color: #039;
+}
+.mensaje_ok H4 {
+	color: #090;
+}
+.mensaje_error H4 {
+	color: #900;
+}
+
+
+/* Listar mensajes de error */
+
+.mensaje_alert LI, .mensaje_info LI, .mensaje_ok LI, .mensaje_error LI
+{
+    width: 90%;
+    display: block;
+    line-height: 16px;
+    color: #555;
+    border-bottom: 1px solid #eee;
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+    padding: 3px 0 3px 7px;
+}
+
+.mensaje_alert LI {
+    
+}
+
+.mensaje_info LI
+{
+    
+}
+
+.mensaje_ok LI
+{
+   
+}
+
+.mensaje_error LI
+{
+    /*background-image: url(url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHdSURBVDjLpZNraxpBFIb3a0ggISmmNISWXmOboKihxpgUNGWNSpvaS6RpKL3Ry//Mh1wgf6PElaCyzq67O09nVjdVlJbSDy8Lw77PmfecMwZg/I/GDw3DCo8HCkZl/RlgGA0e3Yfv7+DbAfLrW+SXOvLTG+SHV/gPbuMZRnsyIDL/OASziMxkkKkUQTJJsLaGn8/iHz6nd+8mQv87Ahg2H9Th/BxZqxEkEgSrq/iVCvLsDK9awtvfxb2zjD2ARID+lVVlbabTgWYTv1rFL5fBUtHbbeTJCb3EQ3ovCnRC6xAgzJtOE+ztheYIEkqbFaS3vY2zuIj77AmtYYDusPy8/zuvunJkDKXM7tYWTiyGWFjAqeQnAD6+7ueNx/FLpRGAru7mcoj5ebqzszil7DggeF/DX1nBN82rzPqrzbRayIsLhJqMPT2N83Sdy2GApwFqRN7jFPL0tF+10cDd3MTZ2AjNUkGCoyO6y9cRxfQowFUbpufr1ct4ZoHg+Dg067zduTmEbq4yi/UkYidDe+kaTcP4ObJIajksPd/eyx3c+N2rvPbMDPbUFPZSLKzcGjKPrbJaDsu+dQO3msfZzeGY2TCvKGYQhdSYeeJjUt21dIcjXQ7U7Kv599f4j/oF55W4g/2e3b8AAAAASUVORK5CYII=);*/
+}

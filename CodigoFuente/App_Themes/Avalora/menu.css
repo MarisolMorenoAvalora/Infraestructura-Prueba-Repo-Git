@@ -1,0 +1,56 @@
+﻿/*ESTILOS PARA EL MENU ANTIGUS
+  
+  PENDIENTE DE GENERACIÓN MENU ADMINISTRACION FERROATLANTICA.  
+    
+    */
+.StaticMenuItem
+{             
+background-color:Transparent;
+border-color: #F1BC00; 
+color:White;                                     
+}
+.StaticMenu
+{             
+background-color:Transparent;
+border-color: #F1BC00; 
+color:Green;                                     
+}
+.StaticSelected
+{             
+background-color:Transparent;
+border-color: #F1BC00;                                      
+color:Red;  
+}
+.StaticHover
+{             
+background-color:Transparent;
+border-color: #F1BC00;                                      
+color:Yellow;  
+}
+.DynamicMenu
+{             
+
+background-color:#E2EEF6;
+border-style:solid;
+border-color: #779AAE;                                      
+border-width:1px;
+padding-top:1px;
+color:Yellow;  
+}
+.DynamicSelected
+{             
+
+background-color:#E2EEF6;              
+}
+.DynamicHover
+{             
+
+background-color:#D9E2ED;              
+}
+.DynamicMenuItem
+{             
+border-color:#08466B;
+background-color:#E2EEF6;              
+}
+
+

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="8" virtualPath="/OHL.GRSalas.UI/global.asax" hash="63aacc98" filehash="4290c20ae339" flags="150000" assembly="App_global.asax" type="ASP.global_asax">
+    <filedeps>
+        <filedep name="/OHL.GRSalas.UI/global.asax" />
+    </filedeps>
+</preserve>

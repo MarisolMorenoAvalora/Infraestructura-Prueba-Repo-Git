@@ -1,0 +1,115 @@
+/*  AVALORA App.NET - UI Template ©2013. AVALORA Tecnologías de la Información S.A. 
+
+HTML Tags
+_____________________________
+1. XHTML Tags
+2. Class genericas
+	2.0. Clases basicas CSS
+*//*
+
+1. XHTML Tags */
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: 0 none;
+    
+
+}
+BODY.body_master
+{
+   background: #FFF; /* Color general de la página*/
+}
+
+HTML
+{
+    font-size: 1em;
+}
+
+A 
+{
+	text-decoration: none;
+	color: #044488;
+}
+A:hover {
+    text-decoration: underline;
+    /*font-size: 8pt;*/
+	color: #BBB;
+}
+
+/* HTML BASIC */
+
+H1, H2, H3, H4, H5, H6 {
+	margin: 2px 0 5px 0;
+	color: #044488;
+}
+
+H1 {
+	font-size: 18px;
+}
+
+H2 {
+	font-size: 16px;
+}
+
+H3 {
+	font-size: 14px;
+}
+
+H4 {
+	font-size: 13px;
+}
+H5 {
+	font-size: 12px;
+}
+H6 {
+	font-size: 11px;
+}
+
+P {
+	margin: 5px 0 15px;
+	font-size: 12px;
+	line-height: 14px;
+	color: #333;
+}
+
+PRE {
+	margin: 10px 0;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	color: #333; 
+}
+
+OL {
+	list-style: decimal;
+}
+UL {
+	list-style: square;
+}
+
+LI {
+	font-size: 12px;
+	list-style-position: inside;
+}
+
+UL.lista-sin-estilo LI {
+	list-style: none;
+}
+
+SMALL {
+	font-size: 10px;
+}
+
+/* Equivalente a <HR>*/
+
+.linea-separador {
+	background-image: url("../img/separador.png");
+	background-position: left top;
+	background-repeat: repeat-x;
+	height: 2px;
+	margin: 10px 0;
+	width: 100%;
+}
+
+

@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Define el ancho de la página */
+
+.cabecera, .cabecera_menu, .bloque_central, .bloque_central_login, .pie_pagina
+{
+    width: 970px;
+    margin: 0 auto;
+}
+
+/* Cabecera personalización */
+
+/* Logotipo cabecera insertar la imágen debe tener 55px de ancho 
+Ej. OHL Construccion
+*/
+/*
+.cabecera H1 A
+{
+    background: transparent url(logotipos/OHLconcesiones-bg-dark.png) 0 0 no-repeat;
+}*/
+
+/* Degradado Cabecera_envoltorio */
+
+/* Barra de usuario configuración new */
+
+
+.menu_usuario {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: auto;
+	padding: 10px;
+}
+.menu_usuario LI {
+	color: #FFF;
+	padding: 0 10px 5px 5px;
+	font-family: meta-normal;
+	font-size: 14px;
+	background: transparent url(img/user-config.png) right 2px no-repeat;
+}
+
+.acciones_usuario {
+	display: none;
+}

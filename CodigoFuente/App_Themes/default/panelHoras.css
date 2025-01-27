@@ -1,0 +1,112 @@
+﻿
+
+
+
+/*  TABLA Lista Salas estilos tbody y resto */
+
+.GridLinkBusqueda/*, #ctl00_ContentPlaceHolder1_grdSalasNombre TBODY*/
+{
+  /*width: 123px;
+  color: #FFF;
+  text-align: left;
+  padding-left: 26px;
+  font-size: 12px;
+  background-color: #aaa;*/
+}
+
+/* BSM */
+
+.txtCapacidad_txtTexto > td {
+    border: solid 0px white !important;
+    background-color: #eee !important;
+    width: 20px !important;
+    color: black !important;
+}
+.txtCapacidad_txtTexto {
+    border: solid 0px white !important;
+    /*background-color: #eee !important;*/
+    width: 15px !important;
+    color: black !important;
+}
+#ctl00_ContentPlaceHolder1_grdSalasNombre TR TD
+{
+    /*background-color: yellow;*/
+    background-color: #eee;
+    height: 20px;
+    border: 0 none;
+    border-bottom: 1px solid #FFF;
+}
+    #ctl00_ContentPlaceHolder1_grdSalasNombre TR TD INPUT
+    {
+        background-color: #eee;
+        border: 0 none;
+        line-height: 15px;
+        color: #222;
+        
+    }
+
+
+/* TABLA Muestra franjas horarias de 15 e 15 minutos */
+
+
+.panel_horas
+{  
+    display: block;
+    width: 59px; 
+    background-color: #555;
+    color: #FFF;
+    font-size: 12px;
+    border-right: 3px solid #333;
+}
+
+
+/* Rejilla Intervalo Horas */
+
+.panelIntervaloHoras
+{
+
+}
+
+.panelIntervaloHoras 
+{
+    border-right: 1px solid #6699cc;
+}
+
+
+/* Imagen Sala */
+
+.imgSala, .imgSalaAdmin
+{
+    position: absolute;
+    /*top: 180px;*/
+    width: 225px;
+    margin-left: 63px;
+    box-shadow: 2px 2px 10px #ccc;
+    right:10px;
+    vertical-align:top;
+}
+
+.imgSalaAdmin
+{
+    top: 145px;
+    width: 200px;
+    margin-left: 132px;
+
+}
+
+    .imgSala IMG, .imgSalaAdmin IMG
+    {
+        width: 100%;
+    }
+
+
+.thSala
+{
+    text-align: left;
+    float: left;
+    font-size: 13px;
+    width: 120px;
+    background: #555;
+    padding-left: 27px;
+    color: #fff;
+}

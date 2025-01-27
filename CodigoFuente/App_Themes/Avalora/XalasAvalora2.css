@@ -1,0 +1,279 @@
+﻿/*@import url(http://fonts.googleapis.com/css?family=Open+Sans);https://box798.bluehost.com:2096/cpsess1735563780/horde/imp/basic.php?mailbox=SU5CT1g&page=mailbox*/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(fonts/fonts-gstatic.woff) format('woff');
+}
+
+
+/*Open Personalización Login id=#form2*/
+
+#form2 .cabecera_envoltorio {
+    border-bottom: 1px solid #ECECEC !important;      
+    height: 82px;  
+}
+
+
+#form2 .cabecera H1 {
+    height: 73px;
+}
+#form2 .cabecera H1 A {
+    float: none;
+    margin: 0 auto;
+    width: 149px;
+    height: 92px;
+}
+#form2 .bloque_central_envoltorio {
+    background: #FCFCFC url(images/sombramenu.png) 0px 0 no-repeat;        
+}
+#form2 .bloque_central {
+    background: #FFF;
+    border: 1px solid #EBEBEB;
+    height: 284px;
+    width: 449px !important;
+    margin: 69px auto !important;
+    padding: 0;
+}
+#form2 .icon-application-form {
+    background-image: none;
+}
+#form2 .icon {
+    padding: 0;
+}
+#form2 .H3cabecera_seccion {
+    background: #009cc9;
+    border: none;
+    margin-bottom: 36px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    padding: 13px 22px;
+    margin-top: 0;
+}
+#form2 .H3cabecera_seccion SPAN {
+    background-color: #009cc9;
+    color: #fff;
+}
+#form2 .icon-application-form {
+    background: none;
+    background: url(images/icon_entrar_login.png) 0px 0 no-repeat;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 0 8px 3px 22px;
+}
+#form2 .input_corto-medio {
+    border: 1px solid #E9E9E9;
+    background-color: #f9f9f9 !important;
+    padding: 6px 9px;
+    width: 290px;
+}
+#form2 .label_corto {
+    width: 84px !important;
+    padding-left: 13px;
+
+}
+#form2 .boton, #form2 .botonIco {
+    margin: 5px 0 0 0;
+    padding: 7px 43px;
+    background-color: #555;
+    color: #E5E5E5;
+    border: none;
+}
+
+#form2 .boton, #form2  .botonIco:hover {
+    background-color: #009cc9;
+    color: #FFF;
+} 
+#form2 #trMessage {
+    padding-left: 43px !important;
+    margin-top: 31px;
+    color: red;
+    font-size: 0.8em;
+    margin-left: 64px;
+    padding-bottom: 2px !important;
+}
+#form2 input:-webkit-autofill {
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 0 1000px #fff inset;
+}
+#form2 .icon-disconnect {
+    background-image: none;
+}
+ #form2 .pie_pagina P {
+    text-align: center;
+}  
+ #form2 .pie_pagina_envoltorio {
+    background: #009cc9;
+}   
+/*End Personalización Login*/
+
+
+
+
+
+
+/*Open Personalization element form.css*/
+
+.input_mini, .input_multiline_mini, .input_mini-corto, .input_multiline_mini-corto, .input_corto, .input_multiline_corto, .input_corto-medio, .input_multiline_corto-medio, .input_medio, .input_multiline_medio, .input_medio-largo, .input_multiline_medio-largo, .input_largo, .input_multiline_largo, .input_fecha, .input_block{
+    background: #FFF;
+    color: #009cc9;
+    border: 1px solid #E5E5E5;
+    padding: 6px 5px;
+
+}
+
+.input_mini:focus, .input_mini-corto:focus, .input_corto:focus, .input_corto-medio:focus, .input_medio:focus, .input_medio-largo:focus, .input_largo:focus, .input_fecha:focus, .input_block:focus, .input_multiline_mini:focus, .input_multiline_mini-corto:focus, .input_multiline_corto:focus, .input_multiline_corto-medio:focus, .input_multiline_medio:focus, .input_multiline_medio-largo:focus, .input_multiline_largo:focus, .select_mini:focus, .select_mini-corto:focus, .select_corto:focus, .select_corto-medio:focus, .select_medio:focus, .select_medio-largo:focus, .select_largo:focus {
+    background: #FFF;
+    color: #009cc9;
+    border: 1px solid #0BC9FF;
+    box-shadow: 0px 0px 1px #06B4E6;
+}
+
+.boton, .botonIco {
+    margin: 5px 0 0 0;
+    padding: 7px 28px;
+    background-color: #555;
+    color: #E5E5E5;
+    border: none;
+}
+
+.boton, .botonIco:hover {
+    background-color: #009cc9;
+    color: #FFF;
+} 
+
+.botonIco{
+background-image: none;
+}
+.select_mini, .select_mini-corto, .select_corto, .select_corto-medio, .select_medio, .select_medio-largo, .select_largo {
+    margin: 5px 0;
+    padding: 1px;
+    background: #FFF;
+    color: #009cc9;
+    border: 1px solid #E5E5E5;
+    padding: 6px 9px;
+}
+.pie_pagina_envoltorio {
+    background: #009cc9;
+}  
+.label_corto {
+    width: 125px !important;
+}
+.select_corto {
+width: 162px !important;
+}
+
+.label, .label_mini, .label_mini-corto, .label_corto, .label_corto-medio, .label_medio, .label_medio-largo, .label_largo, .label_block, .label_corto_modal {
+    display: block;
+    float: left;
+    margin: 0 10px;
+    padding: 0;
+    font-size: 12px;
+    color: #555;
+    background-color: transparent;
+    line-height: 33px;
+
+}
+.H3cabecera_seccion SPAN SPAN, .label_corto SPAN .label, .label_corto-medio {
+    background-color: #FCFCFC;
+    font-weight: 400;
+    font-size: 0.9em;
+    color: #555;
+    /* padding-right: 10px; */
+}
+.H3cabecera_seccion SPAN {
+    background-color: #FCFCFC;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #555;
+    
+}
+.H3cabecera_seccion.ctl00_ContentPlaceHolder1_Label2 {
+
+}
+
+
+
+
+
+/*NO SE A QUE HACE REFERENCIA
+    .botonIco {
+    background: #FFF;
+    color: #009cc9;
+    border: 1px solid #E5E5E5;
+}*/
+
+
+
+
+#ctl00_ContentPlaceHolder1_lblInformePeriodicidad{
+    margin-right: -4px;
+    margin-top: 7px;
+    font-weight: 400;
+    font-size: 0.9em;
+    float: right;
+
+}
+#ctl00_ContentPlaceHolder1_Label4, #ctl00_ContentPlaceHolder1_Label5, #ctl00_ContentPlaceHolder1_Label2, #ctl00_ContentPlaceHolder1_Label1{
+    padding-left: 24px;
+}
+#ctl00_ContentPlaceHolder1_Label6{
+    width: 496px;
+float: left;
+}
+.TextoVideoconferenciaAudiovisual {
+    vertical-align: middle;
+    padding-top: 0 !important;
+    color: #333;
+}
+.data_grid INPUT{
+    margin: 0;
+    padding: 0 13px 5px 5px !important;
+}
+#ctl00_ContentPlaceHolder1_btnSolicitante{
+    margin-left: 145px;
+    float: left;
+    clear: both;
+    margin-bottom: 8px;
+}
+.input_multiline_largo{
+    width: 98.8% !important;
+}
+#ctl00_ContentPlaceHolder1_btnSolicitanteVaciar{
+    margin-left: 3px;
+    float: left;
+}
+
+.imgSala, .imgSalaAdmin{
+    position: absolute;
+    /* top: 180px; */
+    width: 238px;
+    /* margin-left: 63px; */
+    box-shadow: 2px 2px 10px #ccc;
+    right: 10px;
+    /* vertical-align: top; */
+    /* width: 29%; */
+    /* height: 19%; */
+}
+.imgSala IMG, .imgSalaAdmin IMG {
+width: 100% !important;
+}
+/*End Personalization element form.css*/
+
+
+/*OpenDelete background title element form.css linea de puntos*/
+DIV#ctl00_ContentPlaceHolder1_divPeriodicidad SPAN.H3cabecera_seccion, DIV#ctl00_ContentPlaceHolder1_divSalas SPAN.H3cabecera_seccion {
+    background: none;
+}
+DIV.data_grid TABLE#ctl00_ContentPlaceHolder1_grdRecursosSala, #ctl00_ContentPlaceHolder1_grdAsistentes {
+    border: none !important;
+}
+.ancho-completo{
+    width: 96.6%;
+}
+.input_medio-largo, .input_multiline_medio-largo {
+width: 597px;
+}
+
+/*EndDelete background title element form.css*/

@@ -1,0 +1,400 @@
+/*  AVALORA App.NET - UI Template ©2013. AVALORA Tecnologías de la Información S.A. 
+
+FORM ELEMENTS
+_____________________________
+    
+    Labels
+    Inputs
+    Texarea    
+    
+ _____________________________  
+    
+    */
+
+/* ELEMENTOS DE FORMULARIO */
+/* LABELS diferentes anchos también asignables por la css layout */
+
+
+.label,
+.label_mini,
+.label_mini-corto,
+.label_corto,
+.label_corto-medio,
+.label_medio,
+.label_medio-largo,
+.label_largo,
+.label_block,
+.label_corto_modal
+{
+  display: block;
+  float: left;
+  width: auto;
+  margin: 0 10px;
+  padding: 0;
+  font-size: 12px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  line-height: 33px;
+}
+
+
+.TextoVideoconferenciaAudiovisual
+{
+  vertical-align: middle;
+  padding-top: 39px;
+  color: #333;
+}
+
+.label_mini
+{
+  width: 50px;
+}
+
+.label_mini-corto
+{
+  width: 85px;
+}
+
+.label_corto
+{
+  width: 125px;
+}
+
+.label_corto-medio
+{
+  width: 175px;
+}
+
+.label_medio
+{
+  width: 200px;
+}
+
+.label_medio-largo
+{
+  width: 225px;
+}
+
+.label_largo
+{
+  width: 250px;
+}
+
+.label_block
+{
+  clear: both;
+  display: block;
+  width: 95%;
+}
+
+/* Conteo de resultados  .label_completa pasa a .grid_conteo*/
+
+.label_completa
+{
+  clear: both;
+  display: block;
+  font-size: 12px;
+  line-height: 30px;
+  color: #71889F;
+  font-weight: bold;
+}
+
+.label_corto_modal
+{
+  width: 100px;
+}
+
+/* CHECKBOXES */
+
+input[type=checkbox]
+{
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+
+.label_cierre
+{
+  margin: 7px 5px 0;
+  padding: 0 0 0 0;
+  font-size: 11px;
+}
+
+/* INNPUT diferentes anchos en 7 anchos DEFINE ESTILOS PARA TODOS LOS INPUT y TEXTAREA */
+
+.input_mini, .input_multiline_mini,
+.input_mini-corto, .input_multiline_mini-corto,
+.input_corto, .input_multiline_corto,
+.input_corto-medio, .input_multiline_corto-medio,
+.input_medio, .input_multiline_medio,
+.input_medio-largo, .input_multiline_medio-largo,
+.input_largo, .input_multiline_largo,
+.input_fecha,
+.input_block
+{
+  margin: 4px 0;
+  padding: 2px 4px;
+  font-size: 12px;
+  border: 1px solid #CCC;
+  background-color: #f9f9f9;
+  color: #555;
+  line-height: 19px;
+}
+
+
+.input_mini, .input_multiline_mini
+{
+  width: 50px;
+}
+
+.input_mini-corto, .input_multiline_mini-corto
+{
+  width: 100px;
+}
+
+.input_corto, .input_multiline_corto
+{
+  width: 150px;
+}
+
+.input_corto-medio, .input_multiline_corto-medio
+{
+  width: 250px;
+}
+
+.input_medio, .input_multiline_medio
+{
+  width: 328px;
+}
+
+.input_medio-largo, .input_multiline_medio-largo
+{
+  width: 550px;
+}
+
+.input_largo, .input_multiline_largo
+{
+  width: 772px;
+}
+
+.input_fecha
+{
+  width: 120px;
+}
+
+.input_block
+{
+  clear: both;
+  width: 99%;
+}
+
+
+
+.input_block
+{
+  clear: both;
+  margin-left: 20px;
+  width: 900px;
+}
+
+.input_file
+{
+  width: 250px;
+  margin: 5px 0;
+  padding: 1px 2px;
+  font-size: 12px;
+  border: 1px solid #999;
+  background-color: #f1f0ec;
+  color: #555;
+}
+
+/* :FOCUS */
+.input_mini:focus,
+.input_mini-corto:focus,
+.input_corto:focus,
+.input_corto-medio:focus,
+.input_medio:focus,
+.input_medio-largo:focus,
+.input_largo:focus,
+.input_fecha:focus,
+.input_block:focus,
+.input_multiline_mini:focus,
+.input_multiline_mini-corto:focus,
+.input_multiline_corto:focus,
+.input_multiline_corto-medio:focus,
+.input_multiline_medio:focus,
+.input_multiline_medio-largo:focus,
+.input_multiline_largo:focus,
+.select_mini:focus,
+.select_mini-corto:focus,
+.select_corto:focus,
+.select_corto-medio:focus,
+.select_medio:focus,
+.select_medio-largo:focus,
+.select_largo:focus
+{
+  background: #FFF;
+  border-color: #BBB;
+  color: #000;
+}
+
+
+/* SELECTS CORTO, MEDIO, LARGO Ajustan con los input alineando */
+
+.select_mini,
+.select_mini-corto,
+.select_corto,
+.select_corto-medio,
+.select_medio,
+.select_medio-largo,
+.select_largo
+{
+  width: 706px;
+  margin: 5px 0;
+  padding: 1px;
+  background-color: #f9f9f9;
+  border: 1px solid #CCC;
+  color: #555;
+}
+
+.select_mini
+{
+  width: 50px;
+}
+
+.select_mini-corto
+{
+  width: 110px;
+}
+
+.select_corto
+{
+  width: 160px;
+}
+
+.select_corto-medio
+{
+  width: 261px;
+}
+
+.select_medio
+{
+  width: 338px;
+}
+
+.select_medio-largo
+{
+  width: 561px;
+}
+
+.select_largo
+{
+  width: 783px;
+}
+
+
+/* TEXTAREA Defnidos junto los input para modficar los anchos simeltaneamente  */
+
+.input_multiline_corto,
+.input_multiline_medio,
+.input_multiline_largo
+{
+}
+
+/* MULTILINE = TEXTAREA ya ESTILADO JUNTO CON LOS INPUT*/
+
+.input_multiline_corto,
+.input_multiline_medio,
+.input_multiline_largo
+{
+}
+
+/* RADIO BUTTONS */
+
+.radio_inline
+{
+  display: inline;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+  .radio_inline INPUT
+  {
+    margin: 3px 8px 5px 18px;
+    vertical-align: middle;
+    color: #444;
+  }
+
+.radio_block
+{
+  display: block;
+}
+
+
+.input_disabled
+{
+  color: #888;
+  background-color: #FFF;
+}
+
+
+/* BORDER 1PX #CCC para formularios a añadir a los contenedores .clear */
+
+.border_top_1px
+{
+  border-top: 1px solid #CCC;
+}
+
+.border_botom_1px
+{
+  border-bottom: 1px solid #CCC;
+}
+
+.border_left_1px
+{
+  border-left: 1px solid #CCC;
+}
+
+.border_right_1px
+{
+  border-right: 1px solid #CCC;
+}
+
+
+
+
+
+/*
+    
+    UTILIZADO PARA MANTENIMIENTO DE PERFILES POR JAVI A CONSULTAR
+    */
+.CampoMenuPadre
+{
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  height: auto !important;
+  vertical-align: middle;
+  color: #4C4C4C;
+  border: transparent;
+  font-size: 11px !important;
+  -ms-text-align: left;
+}
+/*UTILIZADO PARA MANTENIMIENTO DE PERFILES*/
+.CampoMenuTransparente
+{
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  height: auto !important;
+  vertical-align: middle;
+  color: white;
+  border: transparent;
+  font-size: 11px !important;
+  -ms-text-align: left;
+}
+
+
+/**ESTO ES PARA LA LABEL DONDE AÑADO COLOR DE LEYENDA*/
+.labelLeyenda
+{
+  height: 10px;
+  margin-top: 10px;
+}

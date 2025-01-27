@@ -1,0 +1,148 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="MasterPage, App_Web_nbzlxfjc" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+  <meta http-equiv="X-UA-Compatible" content="IE=8" />
+
+  <title></title>
+
+
+  <script type="text/javascript">
+
+    history.forward();
+    function Refresca() {
+
+      var strAppTimeOut = document.getElementById("strAppTimeOut").value;
+      theForm.submit();
+      setTimeout("Refresca()", strAppTimeOut);
+    }
+
+  </script>
+
+
+
+
+
+  <script src="Includes/js/jquery/jquery-1.8.0.min.js" type="text/javascript"></script>
+  <script src="Includes/js/jquery/jquery-ui-1.8.23.custom.js" type="text/javascript"></script>
+  <script src="Includes/js/funciones_jquery.js" type="text/javascript"></script>
+  <%-- Este pluggin de jquery, sirve para abrir la ventana en dialog--%>
+  <script src="Includes/js/jquery/jquery.simplemodal.1.4.4.min.js" type="text/javascript"></script>
+  <%--<script src="Includes/js/jquery/jquery.simplemodal-1.3.5.min.js" type="text/javascript"></script>--%>
+
+
+  <script src="Includes/js/FormatearHoras.js" type="text/javascript"></script>
+  <script src="Includes/js/FormatearTextos.js" type="text/javascript"></script>
+  <script src="Includes/js/FormatearNumeros.js" type="text/javascript"></script>
+
+
+
+  <script type="text/javascript">
+
+  </script>
+
+</head>
+<body class="body_master" onload="setTimeout('Refresca()', '<%=strAppTimeOut%>')">
+
+  <div class="envoltorio">
+    <form id="form1" runat="server">
+      <input type="hidden" id="strAppTimeOut" name="strAppTimeOut" value="<%=strAppTimeOut%>" />
+      <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true" AsyncPostBackTimeout="900000">
+        <CompositeScript>
+        </CompositeScript>
+      </asp:ScriptManager>
+
+      <Avalora:BarraProceso ID="AJAXCargando1" runat="server" AssociatedUpdatePanelID="UpdatePanelGeneral" />
+      <asp:UpdatePanel ID="UpdatePanelGeneral" runat="server">
+        <ContentTemplate>
+
+          <div class="cabecera_envoltorio">
+            <div class="cabecera_izquierda"></div>
+            <div class="cabecera">
+              <h1>
+                <a title="Inicio" href="Default.aspx">
+                  <asp:Label ID="Label1" runat="server"><%=rmGlobal("OhlReservaSalas")%></asp:Label>
+                </a>
+              </h1>
+              <h3>
+                <span>
+                  <asp:Label ID="lblNombreActual" runat="server"></asp:Label>
+                </span>
+              </h3>
+              <ul class="menu_usuarios">
+                <li>
+                  <a href="Preferencia.aspx" class="but_config"><%=rmGlobal("MisPreferencias")%></a>
+                </li>
+                <li>
+                  <!--<a href="Login.aspx"  class="but_salir"><%=rmGlobal("Salir")%></a>-->
+                  <asp:LinkButton runat="server" ID="btnSalir" CssClass="but_salir" OnClick="btnSalir_Click"><%=rmGlobal("Salir")%></asp:LinkButton>
+                </li>
+              </ul>
+            </div>
+            <!-- FIN .cabecera -->
+          </div>
+          <div class="cabecera_menu_envoltorio">
+            <div class="cabecera_menu">
+              <asp:Menu ID="MenuPrincipal" RenderingMode="Table" runat="server" Font-Names="Tahoma" Font-Size="9" StaticSubMenuIndent="0px" Width="160px" TabIndex="-1" Orientation="Horizontal" BorderStyle="None" BorderWidth="0px" StaticEnableDefaultPopOutImage="False" MaximumDynamicDisplayLevels="5" StaticBottomSeparatorImageUrl="Images/static_separator.gif">
+                <StaticMenuItemStyle HorizontalPadding="10px" VerticalPadding="1px" BorderColor="#F1BC00" ItemSpacing="5px" BackColor="Transparent" />
+                <StaticSelectedStyle BackColor="Transparent" />
+                <StaticHoverStyle ForeColor="#3495D1"  />
+                <StaticMenuStyle BackColor="Transparent" VerticalPadding="0px" />
+                <DynamicMenuStyle BackColor="#E2EEF6" BorderStyle="Solid" BorderColor="#779AAE" BorderWidth="1px" VerticalPadding="1px" CssClass="MenuIE8" />
+                <DynamicSelectedStyle BackColor="#E2EEF6" />
+                <DynamicHoverStyle ForeColor="#D9E2ED" />
+                <DynamicMenuItemStyle HorizontalPadding="1px" VerticalPadding="1px" ItemSpacing="1px" BorderColor="#08466B" BackColor="#E2EEF6" />
+              </asp:Menu>
+
+            </div>
+            <%-- Fin div cabecera_menu --%>
+          </div>
+          <%-- Fin div cabecera_menu_envoltorio --%>
+
+          <div class="bloque_central_envoltorio">
+            <div class="bloque_central">
+              <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+              </asp:ContentPlaceHolder>
+            </div>
+            <%-- Fin div bloque_central --%>
+          </div>
+          <%-- Fin div bloque_central_envoltorio --%>
+          <div class="migas_de_pan">
+            <asp:Literal ID="literalMigas" runat="server" />
+          </div>
+
+          <div class="pie_pagina_envoltorio">
+            <div class="pie_pagina">
+              <p>                
+              </p>
+            </div>
+            <!--/.pie_pagina -->
+          </div>
+
+
+        </ContentTemplate>
+
+      </asp:UpdatePanel>
+
+    </form>
+  </div>
+  <%-- Fin div Envoltorio --%>
+
+  <script language="javascript" type="text/javascript">
+    var prm = Sys.WebForms.PageRequestManager.getInstance();
+    if (prm != null) {
+      try { prm.add_pageLoaded(PrivatePageLoaded); } catch (e) { }
+      try { prm.add_endRequest(PrivateEndRequest); } catch (e) { }
+    }
+  </script>
+
+  <script language="javascript" type="text/javascript">
+
+    cargarClasesMenu();
+
+  </script>
+
+</body>
+</html>

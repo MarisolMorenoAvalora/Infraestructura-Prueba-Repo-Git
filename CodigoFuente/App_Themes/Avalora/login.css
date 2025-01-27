@@ -1,0 +1,201 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+BODY {
+	background-color: #FFF;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0 none;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.login-envoltorio {
+	position: absolute;
+	top: 32%;
+	left: 50%;
+	width: 28em;
+	margin: -4.5em  0 0 -12.5em;
+	padding: 0.625em;
+	box-shadow: rgba(121, 121, 121, 0.63) 0 0 40px;
+	border: 0 solid #BBB;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+}
+
+.login_cab {
+	position: relative;
+	width: 100%;
+	height: 2.3em;
+	border: 0 solid #BBB;
+    border-radius: 0.3em 0.3em 0 0;
+    -moz-border-radius: 0.3em 0.3em 0 0;
+    -webkit-border-radius: 0.3em 0.3em 0 0;
+	background-color: #555;
+}
+.login_cab H3 {
+	float: left;
+	width: 10em;
+	padding: 0 0 0 4.1em;
+	color: #FFF;
+	font-size: 0.9em;
+	background: transparent url(img/login/ico-control-acceso.png) 0.7em 0.4em no-repeat;
+	overflow: hidden;
+	line-height: 2em;
+}
+
+.login {
+	width: 25em;	
+	padding: 1.5em;	
+	border: 1px solid #BBB;
+    border-radius: 0 0 0.5em 0.5em;	
+    -moz-border-radius: 0 0 0.5em 0.5em;
+    -webkit-border-radius: 0 0 0.5em 0.5em;
+	border-top: none;
+	background: #F0F0F0/*003366 url(img/login/background-texture.png) 0 0 no-repeat*/;
+	color: #555;
+}
+
+LABEL {
+	clear: both; 
+	display: block;
+	margin: 0.5em 0 0;
+	font-size: 0.8em;
+}
+
+INPUT[type=text], INPUT[type=password] {
+	/*display: inline;
+	width: 25em;
+	margin: 0.4em 0;
+	padding: 0.7em;
+	color: #555;
+	font-size: 14px;
+	background: white;
+	border: 1px solid #DDD;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;*/
+}
+INPUT[type=password], INPUT[type=submit]  {
+	
+}
+
+INPUT.ico-usuario {
+	padding-left: 2.5em;
+	background: #FFF url(img/login/ico-usuario-input.png) 0.6em 0.6em no-repeat;
+}
+
+INPUT.ico-constraseña {
+	padding-left: 2.5em;
+	padding-right: 0.8em;	
+	background: #FFF url(img/login/ico-passw-input.png) 0.6em 0.6em no-repeat;
+}
+
+INPUT[type=text]:focus, INPUT[type=password]:focus {
+	background-color: #eee;
+	border-color: #bbb;
+}
+
+INPUT[type=submit], INPUT[type=button] {
+	/*margin: 0.5em 0;
+	padding: 0.7em 1.4em 0.4em 1.5em;
+	font-size: 1em;	
+	color: #333;
+	background: red;
+	border: 1px solid #CCC;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;	
+	cursor: pointer;*/
+}
+
+
+INPUT:hover[type=submit], INPUT:hover[type=button] {
+	background: #fff url(img/login/bg-submit-hover.png) left top repeat-x;
+}
+
+SMALL {
+	display:  block;
+	margin: 1em 0 0 0;
+	padding: 0.5em 0.5em 0 0.5em;
+	font-size: 0.7em;
+	text-align: right;
+	background: transparent url(logotipos/OHLconcesiones-footer.png) 0 0 no-repeat;
+}
+
+
+/* Selector de idioma */
+
+.leng_login {
+    position: absolute;
+    right: 14px;
+    top: 16px;
+    display: block;
+    float: right;
+    width: 141px;
+    padding: 0 0 0 0;
+    border: 1px solid #BBB;
+	box-shadow: rgba(121, 121, 121, 0.63) 0 0 7px;
+    border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+	border-top: none;
+    background: #FFF;
+}
+.leng_login IMG {
+    border: 0 none;
+    position: absolute;
+    left: 115px;
+    top: 7px;
+}
+.leng_login LI {
+	position: relative;
+	list-style: none;
+    margin: 0;
+    font-size: 12px;
+}
+.leng_login LI A {
+    display: block;
+    padding: 6px 5px;
+    color: #555;
+}
+
+.leng_login LI A STRONG {
+    color: #333;
+}
+.leng_login LI UL LI {
+    /*border-top: 1px solid #a7a570;*/
+}
+.leng_login LI UL LI:hover {
+    background-color: #eee;
+}
+
+.leng_login_submenu {
+    display: block;
+    overflow: hidden;
+}
+
+
+
+
+/* TEMPORAL */
+
+H2 {
+	font-size: 0.8em;
+}
+
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+
+
+A {
+	text-decoration: none;
+}
